@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <RootNamespace>_3._WPF_Client</RootNamespace>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\1. Simple Socket_Server\1. Simple Socket_Server.csproj" />
+      <ProjectReference Include="..\2. Simple Socket_Client\2. Simple Socket_Client.csproj" />
+    </ItemGroup>
+
+</Project>
