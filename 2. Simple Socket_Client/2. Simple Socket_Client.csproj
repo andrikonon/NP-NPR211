@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>_2._Simple_Socket_Client</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.deps.json" />
+      <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.dll" />
+      <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.exe" />
+      <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.pdb" />
+      <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.runtimeconfig.json" />
+    </ItemGroup>
+
+</Project>
