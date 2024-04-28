@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Simple Socket_Server", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Simple Socket_Client", "2. Simple Socket_Client\2. Simple Socket_Client.csproj", "{51480584-768E-4E7E-A122-3A82A4CADD66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. WPF Client", "3. WPF Client\3. WPF Client.csproj", "{7A74CD80-9B48-4284-BE27-C8767627E08E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{51480584-768E-4E7E-A122-3A82A4CADD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51480584-768E-4E7E-A122-3A82A4CADD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51480584-768E-4E7E-A122-3A82A4CADD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A74CD80-9B48-4284-BE27-C8767627E08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A74CD80-9B48-4284-BE27-C8767627E08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A74CD80-9B48-4284-BE27-C8767627E08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A74CD80-9B48-4284-BE27-C8767627E08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

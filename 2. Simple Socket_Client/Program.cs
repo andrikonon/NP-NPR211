@@ -14,23 +14,16 @@ class Program
         var ip = IPAddress.Parse(Console.ReadLine());
         Console.WriteLine("Enter port: ");
         var port = int.Parse(Console.ReadLine());
+        IPEndPoint endPoint = new IPEndPoint(ip, port);
         try
         {
-            IPEndPoint endPoint = new IPEndPoint(ip, port);
-            using Socket server = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            server.Connect(endPoint);
+            TCPClient client = new TCPClient(endPoint);
             Console.Write("Enter your message to the server: ");
             var message = Console.ReadLine();
-            byte[] data = Encoding.Unicode.GetBytes(message);
-            server.Send(data);
-            byte[] buffer = new byte[1024];
-            int bytes = 0;
+            client.Send(message);
             Console.WriteLine("Server's response: ");
-            do
-            {
-                bytes = server.Receive(buffer);
-                Console.Write(Encoding.Unicode.GetString(buffer));
-            } while (server.Available > 0);
+            var response = client.Recieve();
+            Console.WriteLine(response);
         }
         catch (Exception e)
         {

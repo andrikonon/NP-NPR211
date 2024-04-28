@@ -41,39 +41,16 @@ class Program
 
         IPEndPoint endPoint = new(ip, port);
 
-        using Socket socket = new(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
         Console.Title = endPoint.ToString();
         try
         {
-            socket.Bind(endPoint);
-            socket.Listen(10);
+            TCPServer server = new TCPServer(endPoint);
             Console.WriteLine($"Running server on {endPoint}");
             while (true)
             {
                 Console.WriteLine("Successfully started the server, waiting for requests");
-                using Socket client = await socket.AcceptAsync();
-                
-                Console.WriteLine($"Client end point {client.RemoteEndPoint}");
-                
-                int bytes = 0;
-                byte[] buffer = new byte[1024];
-                string clientMessage = "";
-                Console.WriteLine("Message from client: ");
-                do
-                {
-                    bytes = client.Receive(buffer);
-                    clientMessage += Encoding.Unicode.GetString(buffer);
-                } while (client.Available > 0);
-                
-                Console.WriteLine(clientMessage);
-
-                string message = $"Thanks. Your request `{clientMessage}` has been accepted {DateTime.Now}.";
-                byte[] data = Encoding.Unicode.GetBytes(message);
-                client.Send(data);
-                client.Shutdown(SocketShutdown.Both);
-                client.Close();
-
+                await server.Respond();
             }
         }
         catch (Exception e)
