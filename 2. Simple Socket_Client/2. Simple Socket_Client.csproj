@@ -16,4 +16,16 @@
       <Content Include="bin\Debug\net8.0\2. Simple Socket_Client.runtimeconfig.json" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="bin\**" />
+    </ItemGroup>
+
 </Project>
