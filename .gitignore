@@ -1,30 +1,12 @@
-/1. Simple Socket_Server/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
-/1. Simple Socket_Server/obj/Debug/net8.0/1. Simple Socket_Server.AssemblyInfo.cs
-/1. Simple Socket_Server/obj/Debug/net8.0/1. Simple Socket_Server.AssemblyInfoInputs.cache
-/1. Simple Socket_Server/obj/Debug/net8.0/1. Simple Socket_Server.assets.cache
-/1. Simple Socket_Server/obj/Debug/net8.0/1. Simple Socket_Server.GeneratedMSBuildEditorConfig.editorconfig
-/1. Simple Socket_Server/obj/Debug/net8.0/1. Simple Socket_Server.GlobalUsings.g.cs
-/1. Simple Socket_Server/obj/1. Simple Socket_Server.csproj.nuget.dgspec.json
-/1. Simple Socket_Server/obj/1. Simple Socket_Server.csproj.nuget.g.props
-/1. Simple Socket_Server/obj/1. Simple Socket_Server.csproj.nuget.g.targets
-/1. Simple Socket_Server/obj/project.assets.json
-/1. Simple Socket_Server/obj/project.nuget.cache
-/1. Simple Socket_Server/obj/project.packagespec.json
-/1. Simple Socket_Server/obj/rider.project.restore.info
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_MarkupCompile.cache
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_MarkupCompile.lref
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_C.B26567BD.Up2Date
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.AssemblyInfo.cs
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.AssemblyInfoInputs.cache
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.assets.cache
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.GlobalUsings.g.cs
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_j4dzciyp_wpftmp.sourcelink.json
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.AssemblyInfo.cs
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.AssemblyInfoInputs.cache
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.assets.cache
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.GlobalUsings.g.cs
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client_y3rsjod1_wpftmp.sourcelink.json
-5. TCP_Chat_Client/obj/Debug/net8.0-windows/5. TCP_Chat_Client.csproj.AssemblyReference.cache
-5. TCP_Chat_Client/bin/Debug/net8.0-windows/Newtonsoft.Json.dll
+1. Simple Socket_Server/bin/
+1. Simple Socket_Server/obj/
+2. Simple Socket_Client/bin/
+2. Simple Socket_Client/obj/
+3. WPF Client/bin/
+3. WPF Client/obj/
+4. TCP_Chat_Server/bin/
+4. TCP_Chat_Server/obj/
+5. TCP_Chat_Client/bin/
+5. TCP_Chat_Client/obj/
+SMS/bin/
+SMS/obj/
