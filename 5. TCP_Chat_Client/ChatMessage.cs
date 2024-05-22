@@ -4,10 +4,10 @@ namespace _5._TCP_Chat_Client;
 
 public class ChatMessage
 {
-    public required string UserId { get; set; }
-    public required string Name { get; set; }
-    public required string Text { get; set; }
-    public required string Photo { get; set; }
+    public string UserId { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
+    public string Text { get; set; } = string.Empty;
+    public string Photo { get; set; } = string.Empty;
 
     public static ChatMessage Deserialize(byte[] data)
     {

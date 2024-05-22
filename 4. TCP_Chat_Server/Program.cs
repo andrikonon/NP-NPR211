@@ -21,6 +21,20 @@ internal class Program
         using StreamReader sr = new(fileName);
         ip = IPAddress.Parse(sr.ReadLine());
         port = int.Parse(sr.ReadLine());
+        var hostName = Dns.GetHostName();
+        Console.WriteLine("This host name {0}", hostName);
+        IPHostEntry localhost = Dns.GetHostEntryAsync(hostName).Result;
+        int selectIP = 0;
+        // This is the IP address of the local machine
+        int i = 0;
+        foreach (var item in localhost.AddressList)
+        {
+
+            Console.WriteLine($"{++i}.{item.ToString()}");
+        }
+        Console.Write("->_");
+        i = int.Parse(Console.ReadLine()) - 1;
+        ip = localhost.AddressList[i];
         TcpListener socketServer = new(ip, port);
         socketServer.Start();
         Console.WriteLine($"Запуск сервера {ip}:{port}");
