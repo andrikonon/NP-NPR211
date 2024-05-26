@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# 
+#
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Simple Socket_Server", "1. Simple Socket_Server\1. Simple Socket_Server.csproj", "{4EE22727-F326-4EC7-BBA6-14DA0AC58742}"
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. TCP_Chat_Server", "4. TC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. TCP_Chat_Client", "5. TCP_Chat_Client\5. TCP_Chat_Client.csproj", "{400A5314-1139-4CC9-8C4F-A4982157A4FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS", "SMS\SMS.csproj", "{F33CA19D-F5E6-4A33-AEB6-28D6ADAD15D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. SMS", "6. SMS\6. SMS.csproj", "{F33CA19D-F5E6-4A33-AEB6-28D6ADAD15D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
