@@ -5,5 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        NovaPoshtaService nps = new();
+        nps.GetAreas();
     }
 }
