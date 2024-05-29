@@ -7,5 +7,6 @@ class Program
         Console.WriteLine("Hello, World!");
         NovaPoshtaService nps = new();
         nps.GetAreas();
+        nps.GetSettlements();
     }
 }
